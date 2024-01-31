@@ -22,6 +22,9 @@ const Register = () => {
         if (ps === myPs) {
             setModal(true)
             toast.success('Correct Password...');
+            setTimeout(() => {
+                navigate('/admin')
+            }, 5000)
         } else {
             toast.error('You Are Not Admin...');
             setTimeout(() => {
