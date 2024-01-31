@@ -18,12 +18,12 @@ const Navbar = () => {
 
   return (
     <div className='nav'>
-      <h3 className='logo'>Yahyobek Blog's</h3>
+      <h3 className='logo'>Yahyobek's Blog</h3>
       <ul className={active ? 'navbar-active' : 'navbar'}>
         <NavLink to='' onClick={closeNavbar}>Home</NavLink>
         <NavLink to='a' onClick={closeNavbar}>Blog</NavLink>
         <NavLink to='b' onClick={closeNavbar}>Team</NavLink>
-        <NavLink to='about' onClick={closeNavbar}>About Me</NavLink>
+        <NavLink to='about' onClick={closeNavbar}>About</NavLink>
         <NavLink to='d' onClick={closeNavbar}>New-Codes</NavLink>
       </ul>
       {active ? <FaWindowClose className='menu remove' onClick={toggleActive} /> : <IoMenuSharp className='menu' onClick={toggleActive} />}

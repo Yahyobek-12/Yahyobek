@@ -96,8 +96,9 @@
 
 .flex-btns a:first-child {
     color: #fff;
-    background: #09f;
-    box-shadow: 0 0 5px #09f;
+    border: none;
+    background: #ffa500;
+    box-shadow: 0 0 5px #ffa500;
 }
 
 /* MEDIA SCREEN */
@@ -167,6 +168,10 @@
 }
 
 @media only screen and (max-width: 530px) {
+    .home {
+        padding: 10px 20px;
+    }
+
     .home-top h1 {
         font-size: 18px;
     }

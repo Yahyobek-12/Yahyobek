@@ -2,9 +2,15 @@ import 'animate.css';
 import '../Styles/Home.css';
 import me from '../Images/Tg_Bg.png';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 import { FaYoutube, FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 
 const Home = () => {
+
+  useEffect(() => {
+    document.title = "Yahyobek's Blog"
+  }, [])
+
   return (
     <div className='home'>
       <div className="home-in">
@@ -14,10 +20,10 @@ const Home = () => {
           <h1>Yahyobek Ergashboyev</h1>
           <h3>Frontend Web Developer</h3>
           <div className="txt-icons">
-            <Link to=''><FaYoutube /></Link>
-            <Link to=''><FaGithub /></Link>
-            <Link to=''><FaLinkedin /></Link>
-            <Link to=''><FaTelegram /></Link>
+            <Link to='https://www.youtube.com/channel/UCUBf_gH8egxpNkGTC-s1_AQ' target='_blank'><FaYoutube /></Link>
+            <Link to='https://github.com/Yahyobek-12' target='_blank'><FaGithub /></Link>
+            <Link to='https://www.linkedin.com/in/yahyobek-ergashboyev-9899832a8/' target='_blank'><FaLinkedin /></Link>
+            <Link to='https://www.t.me/lazyprogrammer' target='_blank'><FaTelegram /></Link>
           </div>
         </div>
       </div>

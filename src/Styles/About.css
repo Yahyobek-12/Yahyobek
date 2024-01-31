@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Doppio+One&family=Frijole&family=Rubik+Doodle+Shadow&family=Rubik+Maps&display=swap');
+
+.about {
+    width: 100%;
+    height: 100vh;
+    padding: 10px 25px;
+}
+
+.about h1 {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-style: normal;
+    font-family: "Doppio One", sans-serif;
+}
+
+.about-in {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-cards {
+    width: 65%;
+    height: 100%;
+    margin-top: 3rem;
+}
+
+.about-card h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.bg-1 {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.about-card p {
+    color: #555;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+/* MEDIA SCREEN */
+
+@media only screen and (max-width: 1000px) {
+    .about-cards {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    .about-cards {
+        width: 100%;
+    }
+
+    .about-card img {
+        height: 250px;
+    }
+
+    .about-card {
+        margin-bottom: 10rem;
+    }
+}
