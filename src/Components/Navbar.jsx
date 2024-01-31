@@ -22,7 +22,7 @@ const Navbar = () => {
       <ul className={active ? 'navbar-active' : 'navbar'}>
         <NavLink to='' onClick={closeNavbar}>Home</NavLink>
         <NavLink to='a' onClick={closeNavbar}>Blog</NavLink>
-        <NavLink to='b' onClick={closeNavbar}>Team</NavLink>
+        <NavLink to='register' onClick={closeNavbar}>Admin</NavLink>
         <NavLink to='about' onClick={closeNavbar}>About</NavLink>
         <NavLink to='d' onClick={closeNavbar}>New-Codes</NavLink>
       </ul>
