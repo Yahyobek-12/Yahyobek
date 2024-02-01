@@ -25,6 +25,8 @@ const Register = () => {
             setTimeout(() => {
                 navigate('/admin')
             }, 5000)
+        } else if (ps.trim() === '') {
+            toast.error('Enter A Password...')
         } else {
             toast.error('You Are Not Admin...');
             setTimeout(() => {

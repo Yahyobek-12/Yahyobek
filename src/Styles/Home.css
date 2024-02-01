@@ -82,11 +82,11 @@
 
 .flex-btns a {
     padding: 10px;
-    color: #09f;
+    color: #2065D1;
     transition: 0.3s;
     border-radius: 5px;
     text-decoration: none;
-    border: 1px solid #09f;
+    border: 1px solid #2065D1;
 }
 
 .flex-btns a:hover {
@@ -97,8 +97,8 @@
 .flex-btns a:first-child {
     color: #fff;
     border: none;
-    background: #ffa500;
-    box-shadow: 0 0 5px #ffa500;
+    background: #2065D1;
+    box-shadow: 0 0 5px #2065D1;
 }
 
 /* MEDIA SCREEN */
