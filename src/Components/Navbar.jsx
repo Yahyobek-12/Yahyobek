@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className='nav'>
-      <h3 className='logo'>Yahyobek's Blog</h3>
+      <h3 className='logo'>Yahyobek</h3>
       <ul className={active ? 'navbar-active' : 'navbar'}>
         <NavLink to='' onClick={closeNavbar}>Home</NavLink>
         <NavLink to='about' onClick={closeNavbar}>About</NavLink>
