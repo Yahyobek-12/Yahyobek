@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Doppio+One&family=Frijole&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Doppio+One&family=Foldit:wght@100..900&family=Frijole&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Rubik+Wet+Paint&display=swap');
+
+.projects {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.projects h2 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.project-cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-cards-in {
+    width: 65%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    transition: .5s;
+    position: relative;
+    margin-top: 1.5rem;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.project-card:last-child {
+    margin-bottom: 5rem;
+}
+
+.project-card:hover {
+    border: none;
+    transition: .5s;
+    background: #fff;
+    transform: scale(105%);
+    box-shadow: 0 3px 5px #0002;
+}
+
+.project-card h3 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Rubik Wet Paint", system-ui;
+}
+
+.project-card p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-card p span {
+    font-weight: 900;
+}
+
+.flex-links {
+    right: 5px;
+    bottom: 0;
+    position: absolute;
+}
+
+.flex-links a {
+    color: #fff;
+}
+
+.flex-icon {
+    padding: 5px;
+    font-size: 35px;
+    margin-left: 1rem;
+    border-radius: 5px;
+    background: #121212;
+}
+
+/* MEDIA SCREEN  */
+
+@media only screen and (max-width: 560px) {
+    .project-cards-in {
+        width: 100%;
+    }
+}

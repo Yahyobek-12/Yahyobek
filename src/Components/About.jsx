@@ -6,7 +6,7 @@ import bg1 from '../Images/Tg_Bg.png';
 const About = () => {
 
   useEffect(() => {
-    document.title = "About Me";
+    document.title = "Yahyobek || About";
   }, [])
 
   return (

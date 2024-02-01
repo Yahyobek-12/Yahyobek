@@ -30,7 +30,7 @@ const Home = () => {
       <div className="home-bottom  animate__animated animate__fadeInUp">
         <h3>I write about non-technical stuff in the technical world.</h3>
         <div className="flex-btns">
-          <Link to=''>Read Blog</Link>
+          <Link to='projects'>Projects</Link>
           <Link to='about'>About Me</Link>
         </div>
       </div>
