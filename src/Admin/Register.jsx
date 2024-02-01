@@ -11,9 +11,9 @@ import TextField from '@mui/material/TextField';
 import { ToastContainer, toast } from 'react-toastify';
 
 const Register = () => {
-    const [ps, setPs] = useState('example');
+    const [ps, setPs] = useState('');
     const [modal, setModal] = useState(false);
-    const myPs = '123456';
+    const myPs = 'caisophiya@gmail.com';
 
     const navigate = useNavigate()
 

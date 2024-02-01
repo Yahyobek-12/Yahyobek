@@ -5,6 +5,7 @@ import Footer from '../Components/Footer';
 import About from '../Components/About';
 import Register from '../Admin/Register';
 import Admin from '../Admin/Admin';
+import BlogsA from '../Admin/Blogs-A';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path='about' element={<About />} />
         <Route path='register' element={<Register />} />
         <Route path='admin' element={<Admin />} />
+        <Route path='add-blog' element={<BlogsA />} />
       </Routes>
       <Footer />
     </div>
