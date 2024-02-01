@@ -1,22 +1,32 @@
-import { createContext, useState } from "react";
+import { createContext, useState, useEffect } from "react";
 
 export const BlogContext = createContext();
 
 const Constans = ({ children }) => {
-    const [blog, setBlog] = useState([]);
+    const initialBlogState = JSON.parse(localStorage.getItem("blog")) || [];
+    const [blog, setBlog] = useState(initialBlogState);
 
-     const addBlog = (item) => {
-        const newItem = { title: item.title, date: item.date, description: item.description }
+    const addBlog = (item) => {
+        const newItem = { title: item.title, date: item.date, link: item.link, description: item.description };
         const newArr = [...blog, newItem];
         setBlog(newArr);
-        console.log(blog);
-     };
+    };
 
-  return (
-    <BlogContext.Provider value={{ addBlog, blog }}>
-        {children}
-    </BlogContext.Provider>
-  )
-}
+    const deleteBlog = (index) => {
+        const newArr = [...blog];
+        newArr.splice(index, 1);
+        setBlog(newArr);
+    };
 
-export default Constans
+    useEffect(() => {
+        localStorage.setItem("blog", JSON.stringify(blog));
+    }, [blog]);
+
+    return (
+        <BlogContext.Provider value={{ addBlog, deleteBlog, blog }}>
+            {children}
+        </BlogContext.Provider>
+    );
+};
+
+export default Constans;

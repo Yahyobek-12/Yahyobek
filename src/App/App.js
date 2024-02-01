@@ -6,6 +6,7 @@ import About from '../Components/About';
 import Register from '../Admin/Register';
 import Admin from '../Admin/Admin';
 import BlogsA from '../Admin/Blogs-A';
+import Blog from '../Components/Blog';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='register' element={<Register />} />
         <Route path='admin' element={<Admin />} />
         <Route path='add-blog' element={<BlogsA />} />
+        <Route path='blog' element={<Blog />} />
       </Routes>
       <Footer />
     </div>

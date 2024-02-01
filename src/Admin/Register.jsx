@@ -1,6 +1,5 @@
 import 'animate.css';
 import '../Styles/Admin/Register.css';
-import { Link, useNavigate } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import key__logo from '../Images/key.webp';
 import { useEffect, useState } from 'react';
@@ -8,6 +7,7 @@ import ps__logo from '../Images/password.png';
 import { FaWindowClose } from "react-icons/fa";
 import 'react-toastify/dist/ReactToastify.css';
 import TextField from '@mui/material/TextField';
+import { Link, useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 
 const Register = () => {
