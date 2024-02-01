@@ -8,7 +8,7 @@ import { FaYoutube, FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 const Home = () => {
 
   useEffect(() => {
-    document.title = "Yahyobek's Blog"
+    document.title = "Yahyobek || Portfolio"
   }, [])
 
   return (
