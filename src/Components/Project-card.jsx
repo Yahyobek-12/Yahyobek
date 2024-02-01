@@ -41,7 +41,7 @@ const ProjectCard = () => {
 
       <div className="project-card">
         <h3>New Github Finder</h3>
-        <p><span>Texnologiya:</span> React-.Js || React.Icons || React.Router.Dom</p>
+        <p><span>Texnologiya:</span> React.Js || React.Icons || React.Router.Dom</p>
 
         <div className="flex-links">
             <Link to='https://new-github-finder-two.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
