@@ -11,7 +11,7 @@ const About = () => {
 
   return (
     <div className='about'>
-      <h1>About Me</h1>
+      <h1 className='animate__animated animate__fadeInDown'>About Me</h1>
       <div className="about-in">
         <div className="about-cards">
           <div className="about-card animate__animated animate__fadeInUp">

@@ -1,8 +1,9 @@
 import 'animate.css';
 import '../Styles/Home.css';
-import me from '../Images/Tg_Bg.png';
-import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
+import me from '../Images/me.jpg';
+import { Link } from 'react-router-dom';
+import Button from '@mui/material/Button';
 import { FaYoutube, FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 
 const Home = () => {
@@ -30,8 +31,8 @@ const Home = () => {
       <div className="home-bottom  animate__animated animate__fadeInUp">
         <h3>I write about non-technical stuff in the technical world.</h3>
         <div className="flex-btns">
-          <Link to='projects'>Projects</Link>
-          <Link to='about'>About Me</Link>
+          <Link to='about'><Button variant='contained'>About Me</Button></Link>
+          <Link to='projects'><Button variant='outlined'>Projects</Button></Link>
         </div>
       </div>
       </div>

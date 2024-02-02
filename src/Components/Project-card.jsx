@@ -32,7 +32,7 @@ const ProjectCard = () => {
 
       <div className="project-card animate__animated animate__fadeInLeft">
         <h3>WorlPin</h3>
-        <p><span>Technologies:</span> React.Js || React.CountUp || React.Icons || React.Router.Dom</p>
+        <p><span>Technologies:</span> React.Js || React.CountUp || React.Icons</p>
         <div className="flex-links">
             <Link to='https://worldpin-countries.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
             <Link to='https://github.com/Yahyobek-12/WorldPin' target='_blank'><FaGithub className='flex-icon' /></Link>
@@ -41,7 +41,7 @@ const ProjectCard = () => {
 
       <div className="project-card animate__animated animate__fadeInLeft">
         <h3>New Github Finder</h3>
-        <p><span>Technologies:</span> React.Js || React.Icons || React.Router.Dom</p>
+        <p><span>Technologies:</span> React.Js || React.Icons</p>
 
         <div className="flex-links">
             <Link to='https://new-github-finder-two.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
@@ -51,7 +51,7 @@ const ProjectCard = () => {
 
       <div className="project-card animate__animated animate__fadeInLeft">
         <h3>New-Tube</h3>
-        <p><span>Technologies:</span> React.Js || Material.Ui || React.Player || Axios</p>
+        <p><span>Technologies:</span> React.Js || Material.Ui || React.Player || React.Router.Dom || Axios</p>
 
         <div className="flex-links">
             <Link to='https://new-tube-six.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
