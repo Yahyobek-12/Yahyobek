@@ -22,7 +22,7 @@ const ProjectCard = () => {
       </div>
 
       <div className="project-card animate__animated animate__fadeInLeft">
-        <h3>Colormania</h3>
+        <h3>ColorSpy</h3>
         <p><span>Technologies:</span> Html || Css || Javascript</p>
         <div className="flex-links">
             <Link to='https://new-color-lilac.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
@@ -40,11 +40,11 @@ const ProjectCard = () => {
       </div>
 
       <div className="project-card animate__animated animate__fadeInLeft">
-        <h3>New Github Finder</h3>
-        <p><span>Technologies:</span> React.Js || React.Icons</p>
+        <h3>GitSearcher</h3>
+        <p><span>Technologies:</span> React.Js || React.Icons || React.Router.Dom || UuID || Axios || Animate.Css</p>
 
         <div className="flex-links">
-            <Link to='https://new-github-finder-two.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
+            <Link to='https://git-users-two.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
             <Link to='https://github.com/Yahyobek-12/github-finder' target='_blank'><FaGithub className='flex-icon' /></Link>
         </div>
       </div>
