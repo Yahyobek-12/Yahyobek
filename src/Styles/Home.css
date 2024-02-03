@@ -61,6 +61,10 @@
 }
 
 .txt-icons a:nth-child(4):hover {
+    color: crimson;
+}
+
+.txt-icons a:nth-child(5):hover {
     color: #2FA6DE;
 }
 
@@ -79,6 +83,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.flex-btns a {
+    text-decoration: none;
 }
 
 .flex-btns button {

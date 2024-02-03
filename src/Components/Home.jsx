@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import me from '../Images/me.jpg';
 import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
-import { FaYoutube, FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
+import { FaYoutube, FaGithub, FaLinkedin, FaTelegram, FaInstagram  } from "react-icons/fa";
 
 const Home = () => {
 
@@ -24,7 +24,8 @@ const Home = () => {
             <Link to='https://www.youtube.com/channel/UCUBf_gH8egxpNkGTC-s1_AQ' target='_blank'><FaYoutube /></Link>
             <Link to='https://github.com/Yahyobek-12' target='_blank'><FaGithub /></Link>
             <Link to='https://www.linkedin.com/in/yahyobek-ergashboyev-9899832a8/' target='_blank'><FaLinkedin /></Link>
-            <Link to='https://www.t.me/lazyprogrammer' target='_blank'><FaTelegram /></Link>
+            <Link to='https://www.instagram.com/_yahyobek_12_/' target='_blank'><FaInstagram /></Link>
+            <Link to='https://t.me/Ncy12Ncy' target='_blank'><FaTelegram /></Link>
           </div>
         </div>
       </div>
