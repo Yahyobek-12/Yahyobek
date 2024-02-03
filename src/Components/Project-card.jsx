@@ -43,7 +43,7 @@ const ProjectCard = () => {
         <h3>GitSearcher</h3>
         <p><span>Technologies:</span> React.Js || React.Icons || React.Router.Dom || UuID || Axios || Animate.Css</p>
 
-        <div className="flex-links">
+        <div className="flex-links">  
             <Link to='https://git-users-two.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
             <Link to='https://github.com/Yahyobek-12/github-finder' target='_blank'><FaGithub className='flex-icon' /></Link>
         </div>
