@@ -13,6 +13,15 @@ const ProjectCard = () => {
     <div className="project-cards-in">
 
       <div className="project-card animate__animated animate__fadeInLeft">
+        <h3>TaskMate</h3>
+        <p><span>Technologies:</span> React.Js || @Mui || And More...</p>
+        <div className="flex-links">
+            <Link to='https://task-mate-ncy.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
+            <Link to='https://github.com/Yahyobek-12/TaskMate' target='_blank'><FaGithub className='flex-icon' /></Link>
+        </div>
+      </div>
+      
+      <div className="project-card animate__animated animate__fadeInLeft">
         <h3>Notepad</h3>
         <p><span>Technologies:</span> Html || Css || Javascript || Sweet.Alert</p>
         <div className="flex-links">
@@ -41,7 +50,7 @@ const ProjectCard = () => {
 
       <div className="project-card animate__animated animate__fadeInLeft">
         <h3>GitSearcher</h3>
-        <p><span>Technologies:</span> React.Js || React.Icons || React.Router.Dom || UuID || Axios || Animate.Css</p>
+        <p><span>Technologies:</span> React.Js || Axios || And More...</p>
 
         <div className="flex-links">  
             <Link to='https://git-users-two.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
@@ -51,7 +60,7 @@ const ProjectCard = () => {
 
       <div className="project-card animate__animated animate__fadeInLeft">
         <h3>New-Tube</h3>
-        <p><span>Technologies:</span> React.Js || Material.Ui || React.Player || React.Router.Dom || Axios</p>
+        <p><span>Technologies:</span> React.Js || @Mui || React.Player || And More...</p>
 
         <div className="flex-links">
             <Link to='https://new-tube-six.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
