@@ -43,6 +43,25 @@
     background: #000;
 }
 
+.navbar .nwt {
+    color: #fff;
+    position: relative;
+    padding: 10px 20px;
+    background: #000;
+    border-radius: 50px;
+}
+
+.navbar .nwt::before {
+    top: -11%;
+    left: 75%;
+    width: 15px;
+    content: '';
+    height: 15px;
+    position: absolute;
+    border-radius: 50px;
+    background: crimson;
+}
+
 .menu {
     padding: 8px;
     display: none;

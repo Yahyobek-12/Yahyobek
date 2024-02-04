@@ -2,6 +2,7 @@ import 'animate.css';
 import '../Styles/About.css';
 import { useEffect } from 'react';
 import bg1 from '../Images/Tg_Bg.png';
+import { Link } from 'react-router-dom';
 
 const About = () => {
 
@@ -15,11 +16,9 @@ const About = () => {
       <div className="about-in">
         <div className="about-cards">
           <div className="about-card animate__animated animate__fadeInUp">
-            <h3>I am Azimjon Pulatov, a 22-year-old Software Engineer from Tashkent, Uzbekistan, currently living in Warsaw, Poland.</h3>
-            <h4>I am always contributing to developer events by giving a talk or as a mentor, especially the ones that engage women in tech. As a developer, I really want to see more diversity in the industry.</h4>
-            <h4>I am always contributing to developer events by giving a talk or as a mentor, especially the ones that engage women in tech. As a developer, I really want to see more diversity in the industry.</h4>
+            <h3>I am Yahyobek Ergashboyev, I am 16 years old and I am a frontend web developer, I currently live in Andijan.</h3>
             <img className='bg-1' src={bg1} alt="" />
-            <p>DjangoGirls, Tashkent</p>
+            <Link to='' target='_blank'>Read SV</Link>
           </div>
         </div>
       </div>

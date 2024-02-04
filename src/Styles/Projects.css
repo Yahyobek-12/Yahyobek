@@ -108,6 +108,10 @@
     --animate-duration: 2.5s;
 }
 
+.animate__animated.animate__fadeInLeft:nth-child(6) {
+    --animate-duration: 3s;
+}
+
 /* MEDIA SCREEN  */
 
 @media only screen and (max-width: 560px) {
