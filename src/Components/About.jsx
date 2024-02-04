@@ -1,7 +1,7 @@
 import 'animate.css';
 import '../Styles/About.css';
 import { useEffect } from 'react';
-import bg1 from '../Images/Tg_Bg.png';
+import bg1 from '../Images/team.jfif';
 import { Link } from 'react-router-dom';
 
 const About = () => {
