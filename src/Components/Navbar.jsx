@@ -24,7 +24,9 @@ const Navbar = () => {
         <NavLink to='about' onClick={closeNavbar}>About</NavLink>
         <NavLink to='projects' onClick={closeNavbar}>Projects</NavLink>
         <NavLink to='travel' onClick={closeNavbar}>Travel</NavLink>
-        <NavLink to='https://www.instagram.com/_yahyobek_12_/' target='_blank' onClick={closeNavbar} className='nwt'>Nwt</NavLink>
+        <NavLink to='https://www.instagram.com/_yahyobek_12_/'
+        target='_blank' onClick={closeNavbar} className='nwt'
+        >Nwt</NavLink>
       </ul>
       {active ? <FaWindowClose className='menu remove' onClick={toggleActive} /> : <IoMenuSharp className='menu' onClick={toggleActive} />}
     </div>
