@@ -1,6 +1,5 @@
 import '../Styles/Navbar.css';
 import { useState } from 'react';
-import { IoIosClose } from "react-icons/io";
 import { IoMenuSharp } from "react-icons/io5";
 import { NavLink, Link } from 'react-router-dom';
 import { FaWindowClose } from "react-icons/fa";
@@ -18,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className='nav'>
-      <h3 className='logo'>Yahyobek</h3>
+      <Link to='/' className='logo'>Yahyobek</Link>
       <ul className={active ? 'navbar-active' : 'navbar'}>
         <NavLink to='' onClick={closeNavbar}>Home</NavLink>
         <NavLink to='about' onClick={closeNavbar}>About</NavLink>
