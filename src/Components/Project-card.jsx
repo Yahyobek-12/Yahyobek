@@ -63,8 +63,8 @@ const ProjectCard = () => {
         <p><span>Technologies:</span> React.Js || @Mui || React.Player || And More...</p>
 
         <div className="flex-links">
-            <Link to='https://new-tube-six.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
-            <Link to='https://github.com/Yahyobek-12/youtube_clone' target='_blank'><FaGithub className='flex-icon' /></Link>
+            <Link to='https://new-tube-nwt.vercel.app/' target='_blank'><CiShare1 className='flex-icon' /></Link>
+            <Link to='https://github.com/Yahyobek-12/NewTube' target='_blank'><FaGithub className='flex-icon' /></Link>
         </div>
       </div>
 
