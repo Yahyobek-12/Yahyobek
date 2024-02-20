@@ -46,11 +46,17 @@
 .about-card a {
     padding: 10px;
     color: #fff;
+    transition: .3s;
     text-align: center;
     margin-top: 0.5rem;
     border-radius: 5px;
     background: #121221;
     text-decoration: none;
+}
+
+.about-card a:hover {
+    opacity: 0.7;
+    transition: .3s;
 }
 
 /* MEDIA SCREEN */

@@ -12,7 +12,7 @@
     margin-top: 5rem;
 }
 
-.projects h2 {
+.projects .logo-pr {
     margin-top: 1rem;
     text-align: center;
 }
@@ -21,101 +21,63 @@
     width: 100%;
     height: 100%;
     display: flex;
-    margin-top: 1rem;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+    justify-content: start;
 }
 
-.project-cards-in {
-    width: 65%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-.project-card {
-    width: 100%;
-    height: 150px;
-    padding: 10px;
-    transition: .5s;
+.pr-card {
+    padding: 5px;
+    width: 350px;
+    height: 200px;
+    transition: .3s;
+    margin-top: 2rem;
+    margin-left: 1rem;
     position: relative;
-    margin-top: 1.5rem;
-    border-bottom: 2px solid #d9d9d9;
+    border-radius: 5px;
+    border: 3px solid #f7f7f7;
 }
 
-.project-card:last-child {
-    margin-bottom: 5rem;
+.pr-card:hover {
+    transition: .3s;
+    transform: translateY(-10%);
+    box-shadow: 0 0 5px #0003;
 }
 
-.project-card:hover {
-    border: none;
-    transition: .5s;
-    background: #fff;
-    transform: scale(150%);
-    box-shadow: 0 3px 5px #0002;
+.pr-card h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.project-card h3 {
-    font-weight: 400;
-    font-style: normal;
-    font-family: "Rubik Wet Paint", system-ui;
+.pr-card h3 span {
+    color: #2970ff;
 }
 
-.project-card p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.project-card p span {
-    font-weight: 900;
-}
-
-.flex-links {
-    right: 5px;
-    bottom: 0;
-    position: absolute;
-}
-
-.flex-links a {
+.pr-card a {
     color: #fff;
 }
 
-.flex-icon {
+.pr-card a .a-icon,
+.pr-card a .a-icon-2 {
+    left: 5px;
+    bottom: 5px;
     padding: 5px;
     font-size: 35px;
-    margin-left: 1rem;
     border-radius: 5px;
-    background: #121212;
+    position: absolute;
+    background: #000;
 }
 
-.animate__animated.animate__fadeInLeft:nth-child(2) {
-    --animate-duration: .5s;
+.pr-card a .a-icon-2 {
+    left: 45px;
 }
 
-.animate__animated.animate__fadeInLeft:nth-child(2) {
-    --animate-duration: 1s;
-}
+/* MEDIA SCREEN */
 
-.animate__animated.animate__fadeInLeft:nth-child(3) {
-    --animate-duration: 1.5s;
-}
-
-.animate__animated.animate__fadeInLeft:nth-child(4) {
-    --animate-duration: 2s;
-}
-
-.animate__animated.animate__fadeInLeft:nth-child(5) {
-    --animate-duration: 2.5s;
-}
-
-.animate__animated.animate__fadeInLeft:nth-child(6) {
-    --animate-duration: 3s;
-}
-
-/* MEDIA SCREEN  */
-
-@media only screen and (max-width: 560px) {
-    .project-cards-in {
-        width: 100%;
+@media only screen and (max-width: 500px) {
+    .pr-card {
+        margin-left: 0;
+        margin-top: 1rem;
     }
 }
