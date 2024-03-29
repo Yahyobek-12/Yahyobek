@@ -49,7 +49,7 @@
 
 .pr-card:hover img {
     transition: .3s;
-    transform: scale(105%);
+    transform: scale(95%);
     box-shadow: 0 0 5px #0003;
 }
 
