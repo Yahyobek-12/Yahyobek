@@ -11,7 +11,7 @@
     align-items: center;
     position: fixed; z-index: 10;
     justify-content: space-around;
-    box-shadow:  0 5px 5px #f7f7f7;
+    box-shadow:  0 5px 5px #0001;
 }
 
 .logo {
