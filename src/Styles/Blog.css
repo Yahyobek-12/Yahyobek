@@ -23,11 +23,18 @@
     width: 283px;
     padding: 5px;
     height: 190px;
+    transition: .3s;
     margin-top: 1rem;
     margin-left: 1rem;
     position: relative;
     border-radius: 10px;
     background: #f7f7f7;
+}
+
+.blogs-card:hover {
+    transition: .3s;
+    background: #aaa3;
+    transform: translateY(-5%);
 }
 
 .blog-title {
@@ -73,4 +80,21 @@
 .blogs-card:hover .blog-image {
     transition: .3s;
     transform: scale(98%);
+}
+
+/* MEDIA SCREEN */
+
+@media only screen and (max-width: 600px) {
+    .blogs-dad {
+        padding: 10px;
+    }
+
+    .blogs-card {
+        width: 100%;
+    }
+
+    .blogs-card:hover {
+        background: #f7f7f7;
+        transform: translateY(0%);
+    }
 }
