@@ -22,7 +22,7 @@ const Navbar = () => {
         <NavLink to='' onClick={closeNavbar}>Home</NavLink>
         <NavLink to='about' onClick={closeNavbar}>About</NavLink>
         <NavLink to='projects' onClick={closeNavbar}>Projects</NavLink>
-        <NavLink to='travel' onClick={closeNavbar}>Travel</NavLink>
+        <NavLink to='blog' onClick={closeNavbar}>Blog</NavLink>
         <NavLink to='https://www.instagram.com/_yahyobek_12_/'
         target='_blank' onClick={closeNavbar} className='nwt'
         >Nwt</NavLink>

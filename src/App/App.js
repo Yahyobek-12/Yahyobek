@@ -1,10 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from '../Components/Navbar';
-import Home from '../Components/Home';
-import Footer from '../Components/Footer';
-import About from '../Components/About';
-import Projects from '../Components/Projects';
-import Travel from '../Components/Travel';
+import { Navbar, Home, About, Projects, Blog, Footer } from '../Constans/index';
+
 
 const App = () => {
   return (
@@ -14,7 +10,7 @@ const App = () => {
         <Route path='' element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='projects' element={<Projects />} />
-        <Route path='travel' element={<Travel />} />
+        <Route path='blog' element={<Blog />} />
       </Routes>
       <Footer />
     </div>
