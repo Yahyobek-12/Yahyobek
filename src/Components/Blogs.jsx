@@ -5,7 +5,7 @@ import { MdLocationOn  } from "react-icons/md";
 const Blogs = () => {
   return (
     <div className='blogs'>
-      <div className="blogs-card">
+      <div className="blogs-card animate__animated animate__fadeIn">
         <div className="flex-location">
           <MdLocationOn  className='location-icon' />
           <p>California</p>

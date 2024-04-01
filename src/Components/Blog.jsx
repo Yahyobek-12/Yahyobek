@@ -4,7 +4,7 @@ import Blogs from './Blogs';
 const Blog = () => {
   return (
     <div className='blog'>
-        <h1>Blog</h1>
+        <h1 className='animate__animated animate__fadeInUp'>Blog</h1>
         <div className="blogs-dad">
             <Blogs />
             <Blogs />
