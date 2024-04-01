@@ -21,9 +21,56 @@
 
 .blogs-card {
     width: 283px;
+    padding: 5px;
     height: 190px;
     margin-top: 1rem;
     margin-left: 1rem;
+    position: relative;
     border-radius: 10px;
     background: #f7f7f7;
+}
+
+.blog-title {
+    margin-top: .5rem;
+}
+
+.blogs-card .date {
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    padding: 5px 20px;
+    position: absolute;
+    background: #121212;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.flex-location {
+    width: 95px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex-location .location-icon {
+    font-size: 20px;
+}
+
+.blog-image {
+    left: 5px;
+    bottom: 5px;
+    width: 50%;
+    height: 80px;
+    transition: .3s;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 5px;
+    transform: scale(100%);
+    border: 3px solid #121212;
+}
+
+.blogs-card:hover .blog-image {
+    transition: .3s;
+    transform: scale(98%);
 }
