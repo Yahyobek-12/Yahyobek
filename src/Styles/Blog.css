@@ -7,6 +7,7 @@
 .blog h1 {
     font-size: 40px;
     text-align: center;
+    font-family: "Doppio One", sans-serif;
 }
 
 .blogs-dad {
@@ -85,8 +86,12 @@
 /* MEDIA SCREEN */
 
 @media only screen and (max-width: 600px) {
+    .blogs-dad {
+        justify-content: center;
+    }
+
     .blogs-card {
-        width: 90%;
+        margin-left: 0;
     }
 
     .blogs-card:hover {

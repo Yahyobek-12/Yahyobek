@@ -27,10 +27,15 @@
     border-radius: 50%;
 }
 
+.home-top-txt h1 {
+    font-family: "Doppio One", sans-serif;
+}
+
 .home-top-txt h3 {
     color: #555;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
+    
 }
 
 .txt-icons {
