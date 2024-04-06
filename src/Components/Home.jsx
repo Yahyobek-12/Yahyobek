@@ -32,7 +32,7 @@ const Home = () => {
       <div className="home-bottom  animate__animated animate__fadeInUp">
         <h3>If you want to know more about me, go to my about page.</h3>
         <div className="flex-btns">
-          <Link to='about'><Button variant='contained'>About Me</Button></Link>
+          <Link to='blog'><Button variant='contained'>Read Blog</Button></Link>
           <Link to='projects'><Button variant='outlined'>Projects</Button></Link>
         </div>
       </div>

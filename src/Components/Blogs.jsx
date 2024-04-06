@@ -8,13 +8,13 @@ const Blogs = () => {
       <div className="blogs-card animate__animated animate__fadeIn">
         <div className="flex-location">
           <MdLocationOn  className='location-icon' />
-          <p>California</p>
+          <p>Bulding...</p>
         </div>
         <img className='blog-image' src={logo} alt="" />
         <div className="flex-content">
-          <h3 className='blog-title'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, voluptatibus.</h3>
+          <h3 className='blog-title'>Writing...</h3>
         </div>
-        <p className='date'>4/1/2024</p>
+        <p className='date'>Uncoming...</p>
       </div>
     </div>
   )
