@@ -4,6 +4,7 @@ import { CiShare1 } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import Taskmate from '../Images/taskmate.png';
 import Nike from '../Images/nike.png';
+import NCYpr from '../Images/ncy-pr.png';
 import Notepad from '../Images/notepad.png';
 import Colorspy from '../Images/colorspy.png';
 import Worldpin from '../Images/worldpin.png';
@@ -19,6 +20,14 @@ const ProjectCard = () => {
 
   return (
     <div className="project-cards animate__animated animate__fadeIn">
+      <div className="pr-card">
+        <img src={NCYpr} alt="" />
+        <h2>Ncy PR</h2>
+        <h3><span>Technologies</span>: React-Js || Vite-Js || Tailwind-Css ||</h3>
+        <Link to='https://ncy-pr.vercel.app/' target='_blank'><CiShare1 className='a-icon' /></Link>
+        <Link to='https://github.com/Yahyobek-12/nike' target='_blank'><FaGithub className='a-icon-2' /></Link>
+      </div>
+
       <div className="pr-card">
         <img src={Nike} alt="" />
         <h2>Nike</h2>
