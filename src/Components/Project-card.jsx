@@ -4,6 +4,7 @@ import { CiShare1 } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import Taskmate from '../Images/taskmate.png';
 import Nike from '../Images/nike.png';
+import Mobyai from '../Images/moby.png';
 import NCYpr from '../Images/ncy-pr.png';
 import Notepad from '../Images/notepad.png';
 import Colorspy from '../Images/colorspy.png';
@@ -20,6 +21,14 @@ const ProjectCard = () => {
 
   return (
     <div className="project-cards animate__animated animate__fadeIn">
+      <div className="pr-card">
+        <img src={Mobyai} alt="" />
+        <h2>Moby-ai</h2>
+        <h3><span>Technologies</span>: Tesseract-Js || Vite-Js || Tailwind-Css || React-hot-toast</h3>
+        <Link to='https://moby-ai.vercel.app/' target='_blank'><CiShare1 className='a-icon' /></Link>
+        <Link to='https://github.com/Yahyobek-12/Moby-ai' target='_blank'><FaGithub className='a-icon-2' /></Link>
+      </div>
+
       <div className="pr-card">
         <img src={NCYpr} alt="" />
         <h2>Ncy PR</h2>
