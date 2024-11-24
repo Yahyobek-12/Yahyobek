@@ -24,7 +24,7 @@ const Home = () => {
             <Link to='https://www.youtube.com/channel/UCUBf_gH8egxpNkGTC-s1_AQ' target='_blank'><FaYoutube /></Link>
             <Link to='https://github.com/Yahyobek-12' target='_blank'><FaGithub /></Link>
             <Link to='https://www.linkedin.com/in/yahyobek-ergashboyev-9899832a8/' target='_blank'><FaLinkedin /></Link>
-            <Link to='https://www.instagram.com/_yahyobek_12_/' target='_blank'><FaInstagram /></Link>
+            {/* <Link to='https://www.instagram.com/_yahyobek_12_/' target='_blank'><FaInstagram /></Link> */}
             <Link to='https://t.me/Ncy12Ncy' target='_blank'><FaTelegram /></Link>
           </div>
         </div>
@@ -32,8 +32,8 @@ const Home = () => {
       <div className="home-bottom  animate__animated animate__fadeInUp">
         <h3>If you want to know more about me, go to my about page.</h3>
         <div className="flex-btns">
-          <Link to='blog'><Button variant='contained'>Read Blog</Button></Link>
-          <Link to='projects'><Button variant='outlined'>Projects</Button></Link>
+          <Link to='/about'><Button variant='contained'>About me</Button></Link>
+          <Link to='/projects'><Button variant='outlined'>Projects</Button></Link>
         </div>
       </div>
       </div>
